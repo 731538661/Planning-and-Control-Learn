@@ -1,0 +1,28 @@
+{
+  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+  "C_Cpp.default.compileCommands": "${workspaceFolder}/build/compile_commands.json",
+  "C_Cpp.default.intelliSenseMode": "windows-msvc-x64",
+  "C_Cpp.default.cppStandard": "c++14",
+  "C_Cpp.default.cStandard": "c11",
+  "C_Cpp.default.includePath": [
+    "${workspaceFolder}/**",
+    "${workspaceFolder}/build/**",
+    "${workspaceFolder}/install/**"
+  ],
+  "C_Cpp.default.defines": [
+    "ROS2=1"
+  ],
+  "C_Cpp.errorSquiggles": "enabled",
+  "cmake.configureOnOpen": false,
+  "cmake.buildDirectory": "${workspaceFolder}/build/${buildKit}",
+  "cmake.configureSettings": {
+    "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
+  },
+  "files.associations": {
+    "*.launch": "xml",
+    "*.world": "xml"
+  },
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}"
+  ]
+}

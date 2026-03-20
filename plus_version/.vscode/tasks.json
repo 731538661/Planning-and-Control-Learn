@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "colcon build (compile_commands)",
+      "type": "shell",
+      "command": "colcon",
+      "args": [
+        "build",
+        "--cmake-args",
+        "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": "$gcc",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
